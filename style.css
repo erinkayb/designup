@@ -224,3 +224,11 @@ i{
   box-shadow: 15px 5px 28px grey;
   cursor: pointer;
 }
+
+/*About Page*/
+.jumbotron-about {
+  height: 400px;
+  background-image: url('https://res.cloudinary.com/di7m4tijz/image/upload/v1538573418/header-bg_fawote.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+}

@@ -10,7 +10,7 @@ $(document).ready(function() {
   })
 });
 
-// Course
+// Courses
 $(document).ready(function(){
    $('.more-details-button').on('click', event => {
     $(event.currentTarget).closest('.course-details').next().toggle()
@@ -20,4 +20,11 @@ $(document).ready(function(){
 
     $(event.currentTarget).siblings().removeClass('active')
   });
+});
+
+// About Page
+$(document).ready(function(){
+    $("#about-us-button").click(function(){
+        $("#about-us").slideToggle("slow");
+    });
 });
