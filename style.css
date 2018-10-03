@@ -21,9 +21,8 @@ body {
 @media (min-width: 992px) {
   .navbar {
       height: 70px;
+      font-size: 30px;
   }
-.navbar {
-  font-size: 30px;
 }
 
 /*Video Background*/
@@ -42,81 +41,87 @@ video {
 /*Course cards */
 
 .container {
-  /*max-width: 450px;*/
-  margin: 0 auto;
   margin-top: 50px; 
   margin-bottom: 50px; 
 }
 
-h1 {
+.h1text {
   color: #1B1B36;
   padding: 5px;
   text-align: center;
   margin-top: 10%;
 }
 
-h3 {
-  color: #e3e4e6;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-h4 {
+.h4text {
   text-transform: uppercase; 
+  text-align: center;
+  padding: 5%;
 }
 
 
-.course-card {
+
+
+/*.course-card {
   margin: 0 auto; 
-}
-  @media only screen and (max-width:620px) {
+}*/
+ /* @media only screen and (max-width:620px) {
     .course-card {
       margin: 0 auto; 
     }
     .photo1, .photo4, .photo2, .photo3 {
       width: 100%;
     }
-  }
+  }*/
 
-  .photo1, .photo4, .photo2, .photo3 {
+ /* .photo1, .photo4, .photo2, .photo3 {
     background-position: center;
     height: 200px;
-    min-height:100px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
+      
     
   }
-  .course-card .photo1 {
-    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/gd.png"); 
+*/
+
+  .photo1 {
+    width: 100%;
+    height: 200px;
+    background-image: url('https://res.cloudinary.com/erinkayb/image/upload/v1538558209/gd.png');
+    background-size: cover;
   }
   .course-card .photo2 {
-    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/paint.png"); 
-    
+/*    background-image: url(""); 
+*/    width: 100%;
+    height: 200px;
+    background-image: url('https://res.cloudinary.com/erinkayb/image/upload/v1538558209/paint.png');
+    background-size: cover;
   }
   .course-card .photo3 {
-    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/hl.png"); 
-    
+/*    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/hl.png"); 
+*/    width: 100%;
+    height: 200px;
+    background-image: url('https://res.cloudinary.com/erinkayb/image/upload/v1538558209/gd.png');
+    background-size: cover;
   }
   .course-card .photo4 {
-    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/di.png"); 
-    
+/*    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/di.png"); 
+*/    width: 100%;
+    height: 200px;
+    background-image: url('https://res.cloudinary.com/erinkayb/image/upload/v1538558209/gd.png');
+    background-size: cover;
   }
-  .course-card .photo-active {
-    background-size: 30.8em 16.5em;
-    transition: 0.2s; 
-  }
+ 
   .course-card .course-details {
-    margin-top: -5px;
     background-color: #EFEFEF;
     display: flex;
     justify-content: space-between; 
   }
-    .course-card .course-details h4,
+
     .course-card .course-details p {
-      padding: 0.7em 1.25em; 
+      text-align: center;
+      vertical-align: middle;
+      line-height: auto;
     }
     .course-card .course-details div {
       display: flex; 
@@ -131,16 +136,8 @@ h4 {
       width: 2em;
       transition: 0.9s; 
     }
-      .course-card .course-details .more-details-button img {
-        color: #C317A2;
-        position: relative;
-        left: 0.1em; 
-      }
-      .course-card .course-details .more-details-button .rotate {
-        trancoursesition: 0.1s;
-        transform: rotate(90deg); 
-      }
-i{
+     
+.ifont {
   font-size: 30px;
 }
       .course-card .details .active {
@@ -162,7 +159,7 @@ i{
 
 
 /*Gallery Page*/
-/*
+
 .title h1 {
   font-size: 2rem;
   box-shadow: 5px 5px 28px grey;
@@ -211,4 +208,3 @@ i{
 .gallery img:hover {
   box-shadow: 15px 5px 28px grey;
 }
-*/
