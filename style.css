@@ -44,8 +44,8 @@ video {
 .container {
   /*max-width: 450px;*/
   margin: 0 auto;
-  margin-top: 50px; 
-  margin-bottom: 50px; 
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 h1 {
@@ -62,16 +62,16 @@ h3 {
 }
 
 h4 {
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
 
 .course-card {
-  margin: 0 auto; 
+  margin: 0 auto;
 }
   @media only screen and (max-width:620px) {
     .course-card {
-      margin: 0 auto; 
+      margin: 0 auto;
     }
     .photo1, .photo4, .photo2, .photo3 {
       width: 100%;
@@ -87,39 +87,39 @@ h4 {
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-    
+
   }
   .course-card .photo1 {
-    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/gd.png"); 
+    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/gd.png");
   }
   .course-card .photo2 {
-    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/paint.png"); 
-    
+    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/paint.png");
+
   }
   .course-card .photo3 {
-    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/hl.png"); 
-    
+    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/hl.png");
+
   }
   .course-card .photo4 {
-    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/di.png"); 
-    
+    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/di.png");
+
   }
   .course-card .photo-active {
     background-size: 30.8em 16.5em;
-    transition: 0.2s; 
+    transition: 0.2s;
   }
   .course-card .course-details {
     margin-top: -5px;
     background-color: #EFEFEF;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
   }
     .course-card .course-details h4,
     .course-card .course-details p {
-      padding: 0.7em 1.25em; 
+      padding: 0.7em 1.25em;
     }
     .course-card .course-details div {
-      display: flex; 
+      display: flex;
     }
     .course-card .course-details .more-details-button {
       background-color: #535353;
@@ -129,40 +129,40 @@ h4 {
       padding-left: 10px;
       cursor: pointer;
       width: 2em;
-      transition: 0.9s; 
+      transition: 0.9s;
     }
       .course-card .course-details .more-details-button img {
         color: #C317A2;
         position: relative;
-        left: 0.1em; 
+        left: 0.1em;
       }
       .course-card .course-details .more-details-button .rotate {
         trancoursesition: 0.1s;
-        transform: rotate(90deg); 
+        transform: rotate(90deg);
       }
 i{
   font-size: 30px;
 }
       .course-card .details .active {
       background-color: #C3FF00;
-      
+
     }
   .course-card .details {
     display: none;
     background-color: #535353;
-    color: #EFEFEF; 
+    color: #EFEFEF;
   }
     .course-card .details .active {
       background-color: #C3FF00;
-      color: #313131; 
+      color: #313131;
     }
   .course-card p {
-    padding: 1em 1.25em; 
+    padding: 1em 1.25em;
   }
 
 
 /*Gallery Page*/
-/*
+
 .title h1 {
   font-size: 2rem;
   box-shadow: 5px 5px 28px grey;
@@ -188,12 +188,24 @@ i{
 }
 
 .gallery-text a {
-  width: 60px;
+  width: 90px;
   text-align: center;
   color: #fff;
   background-color: #2E2E2E;
   float: right;
   margin-top: 10px;
+  padding: 10px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 1.9px;
+  box-shadow: 5px 5px 28px grey;
+}
+
+.gallery-text a:hover {
+  background-color: #b8bad6;
+  color: #2E2E2E;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .gallery {
@@ -210,5 +222,5 @@ i{
 
 .gallery img:hover {
   box-shadow: 15px 5px 28px grey;
+  cursor: pointer;
 }
-*/
