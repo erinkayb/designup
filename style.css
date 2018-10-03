@@ -1,40 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR|Oswald|Playfair+Display|Yesteryear');
 
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.1s;
+}
+
 body {
   margin: 0px;
-  background-color: #b8bad6;
+  background-color: #fff;
   color: #2E2E2E;
   font-family: 'Playfair Display', serif;
 }
 
-.navbar h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 45px;
-  display: inline-block;
-  padding-left: 20px;
-  padding-top: 25px;
+/*Navbar*/
+.logo {
+  max-width: 250px;
 }
 
-.navbar-brand img {
-  width: 100px;
-  height: 100px;
+@media (min-width: 992px) {
+  .navbar {
+      height: 70px;
+  }
+.navbar {
+  font-size: 30px;
 }
 
-.navbar-nav ul > {
-  float: right;
-}
-
-.navbar-links {
-  margin-left: 50%;
-  display: inline-block;
-  float: right;
-}
-
-.navbar-links ul > li {
-  font-family: 'Playfair Display', serif;
-  font-size: 25px;
-}
-
+/*Video Background*/
 video {
   object-fit: cover;
   top: 0px;
@@ -46,10 +38,99 @@ video {
   position: fixed;
 }
 
+.container {
+  /*max-width: 450px;*/
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*Course cards */
+.course-card {
+  margin: 0 auto;
+}
+  .course-card .dark-sole-original,
+  .course-card .photo1, .photo4,
+  .course-card .photo2, .photo3 {
+    background-size: 28em 15em;
+    background-position: center;
+    height: 14em;
+    transition: 0.2s;
+  }
+  .course-card .photo1 {
+    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/gd.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .course-card .photo2 {
+    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/hl.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .course-card .photo3 {
+    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/paint.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .course-card .photo4 {
+    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/di.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .course-card .photo-active {
+    background-size: 30.8em 16.5em;
+    transition: 0.2s; }
+  .course-card .course-details {
+    margin-top: -5px;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: space-between; }
+    .course-card .course-details h4,
+    .course-card .course-details p {
+      padding: 0.7em 1.25em; }
+    .course-card .course-details div {
+      display: flex; }
+    .course-card .course-details .more-details-button {
+      background-color: #535353;
+      color: white;
+      font-size: 20px;
+      padding: .75em 1.25em;
+      padding-left: 10px;
+      cursor: pointer;
+      width: 2em;
+      transition: 0.9s;
+    }
+      .course-card .course-details .more-details-button img {
+        color: #C317A2;
+        position: relative;
+        left: 0.1em;
+      }
+      .course-card .course-details .more-details-button .rotate {
+        trancoursesition: 0.1s;
+        transform: rotate(90deg);
+      }
+i{
+  font-size: 30px;
+}
+  .course-card .details .active {
+    background-color: #C3FF00;
+  }
+  .course-card .details {
+    display: none;
+    background-color: #535353;
+    color: #EFEFEF;
+  }
+    .course-card .details .active {
+      background-color: #C3FF00;
+      color: #313131;
+    }
+  .course-card p {
+    padding: 1em 1.25em;
+  }
+
 /*Gallery Page*/
 
 .title h1 {
-  text-align: center;
   margin-top: 30px;
   font-size: 3rem;
   margin-left: 20px;
