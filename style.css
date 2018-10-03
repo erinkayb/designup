@@ -131,13 +131,17 @@ i{
 /*Gallery Page*/
 
 .title h1 {
-  margin-top: 30px;
-  font-size: 3rem;
-  margin-left: 20px;
+  font-size: 2rem;
+  box-shadow: 5px 5px 28px grey;
+  background-color: #fff;
+  width: 20%;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  text-align: center;
 }
 
 .title h1:hover {
-  font-size: 3.2rem;
+  font-size: 2.1rem;
   cursor: pointer;
 }
 
@@ -147,6 +151,7 @@ i{
   text-align: left;
   padding: 30px;
   background-color: #fff;
+  border-radius: 40px;
 }
 
 .gallery-text a {
