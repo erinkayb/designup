@@ -27,16 +27,20 @@ body {
 
 /*Video Background*/
 video {
-  object-fit: cover;
-  top: 0px;
-  left: 0px;
-  height: 100%;
+  object-fit: cover
+  left: 0;
+  right: 0;
+  height: 600px;
   width: 100%;
   z-index: -1;
   overflow: hidden;
   position: fixed;
 }
-
+.video-banner {
+  margin-top: 0px;
+  min-width: 100%;
+  max-height:60px;
+}
 
 /*Course cards */
 
