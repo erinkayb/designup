@@ -25,6 +25,9 @@ body {
   }
 }
 
+
+/*Index page*/
+
 /*Video Background*/
 video {
   height: auto;
@@ -35,14 +38,13 @@ video {
   font-size: 1.5rem;
   position: relative;
 }
+
 .overlay-desc {
   background: rgba(0,0,0,0);
   position: absolute;
   top: 40%; right: 0; bottom: 0; left: 0;
   display: flex;
 }
-
-/*Index page*/
 
 /*buttons*/
 .main-page-btn a{
@@ -85,6 +87,12 @@ video {
   border-color: transparent;
   color: #2E2E2E;
   text-decoration: none;
+}
+
+/*Featured courses on index*/
+.index-featured-courses-img img:hover{
+  box-shadow: 15px 5px 28px grey;
+  cursor: pointer;
 }
 
 /*Course cards */
