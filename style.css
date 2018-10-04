@@ -27,21 +27,46 @@ body {
 
 /*Video Background*/
 video {
-  object-fit: fill;
-  left: 0;
-  right: 0;
+  height: auto;
+  vertical-align: middle;
   width: 100%;
-  height: 500px;
-  z-index: -100;
-  overflow: hidden;
 }
 .video-banner p {
   font-size: 1.5rem;
+  position: relative;
+}
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 40%; right: 0; bottom: 0; left: 0;
+  display: flex;
 }
 
 /*Index page*/
 
-/*button*/
+/*buttons*/
+.main-page-btn a{
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  width: 20%;
+  border: 3px solid #fff;
+  background-color: transparent;
+  padding: 10px;
+  position: relative;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 30%;
+  margin-top: 40px;
+}
+
+.main-page-btn a:hover {
+  background-color: #2E2E2E;
+  border-color: transparent;
+  text-decoration: none;
+}
+
 .link-featured-courses {
   color: #2E2E2E;
   font-size: 1.2rem;
