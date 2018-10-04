@@ -10,7 +10,7 @@ $(document).ready(function() {
   })
 });
 
-// Course
+// Courses
 $(document).ready(function(){
    $('.more-details-button').on('click', event => {
     $(event.currentTarget).closest('.course-details').next().toggle()
