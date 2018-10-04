@@ -27,19 +27,39 @@ body {
 
 /*Video Background*/
 video {
-  object-fit: cover
+  object-fit: fill;
   left: 0;
   right: 0;
-  height: 600px;
   width: 100%;
-  z-index: -1;
+  height: 500px;
+  z-index: -100;
   overflow: hidden;
-  position: fixed;
 }
-.video-banner {
-  margin-top: 0px;
-  min-width: 100%;
-  max-height:60px;
+.video-banner p {
+  font-size: 1.5rem;
+}
+
+/*Index page*/
+
+/*button*/
+.link-featured-courses {
+  color: #2E2E2E;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  width: 25%;
+  border: 3px solid #b8bad6;
+  background-color: transparent;
+  padding: 10px;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.link-featured-courses:hover {
+  background-color: #b8bad6;
+  border-color: transparent;
+  color: #2E2E2E;
+  text-decoration: none;
 }
 
 /*Course cards */
