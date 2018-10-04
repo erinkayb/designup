@@ -25,18 +25,75 @@ body {
   }
 }
 
+
+/*Index page*/
+
 /*Video Background*/
 video {
-  object-fit: cover;
-  top: 0px;
-  left: 0px;
-  height: 100%;
+  height: auto;
+  vertical-align: middle;
   width: 100%;
-  z-index: -1;
-  overflow: hidden;
-  position: fixed;
+}
+.video-banner p {
+  font-size: 1.5rem;
+  position: relative;
 }
 
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 40%; right: 0; bottom: 0; left: 0;
+  display: flex;
+}
+
+/*buttons*/
+.main-page-btn a{
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  width: 20%;
+  border: 3px solid #fff;
+  background-color: transparent;
+  padding: 10px;
+  position: relative;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 30%;
+  margin-top: 40px;
+}
+
+.main-page-btn a:hover {
+  background-color: #2E2E2E;
+  border-color: transparent;
+  text-decoration: none;
+}
+
+.link-featured-courses {
+  color: #2E2E2E;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  width: 25%;
+  border: 3px solid #b8bad6;
+  background-color: transparent;
+  padding: 10px;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.link-featured-courses:hover {
+  background-color: #b8bad6;
+  border-color: transparent;
+  color: #2E2E2E;
+  text-decoration: none;
+}
+
+/*Featured courses on index*/
+.index-featured-courses-img img:hover{
+  box-shadow: 15px 5px 28px grey;
+  cursor: pointer;
+}
 
 /*Course cards */
 
@@ -53,7 +110,7 @@ video {
 }
 
 .h4text {
-  text-transform: uppercase; 
+  text-transform: uppercase;
   text-align: center;
   padding: 5%;
 }
@@ -68,25 +125,25 @@ video {
     background-size: 28em 15em;
     background-position: center;
     height: 14em;
-    transition: 0.2s; 
+    transition: 0.2s;
   }
   .course-card .photo1 {
-    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/gd.png"); 
+    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/gd.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
   .course-card .photo2 {
-    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/paint.png"); 
+    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/paint.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
   .course-card .photo3 {
-    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/hl.png"); 
+    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/hl.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
   .course-card .photo4 {
-    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/di.png"); 
+    background-image: url("https://res.cloudinary.com/erinkayb/image/upload/v1538558209/di.png");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -148,14 +205,15 @@ video {
 
 /*contact page*/
 .jumbotron-1 {
-  background: url('https://res.cloudinary.com/erinkayb/image/upload/v1538656503/paint2-b_rgb_fffdfd_e_blur_300_o_54.png') no-repeat center center;
+  background-image: url('https://res.cloudinary.com/erinkayb/image/upload/v1538656503/paint2-b_rgb_fffdfd_e_blur_300_o_54.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .jumbotron-2 {
-  background: url('https://res.cloudinary.com/erinkayb/image/upload/v1538656311/brushes-e_fade_1000_o_78-e_blur_323.png') no-repeat center center;
+  background-image: url('https://res.cloudinary.com/erinkayb/image/upload/v1538656311/brushes-e_fade_1000_o_78-e_blur_323.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-/*.jumbotron-text{
-  color:white;
-}*/
 
 /*Gallery Page*/
 
