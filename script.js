@@ -21,10 +21,3 @@ $(document).ready(function(){
     $(event.currentTarget).siblings().removeClass('active')
   });
 });
-
-// About Page
-$(document).ready(function(){
-    $("#about-us-button").click(function(){
-        $("#about-us").slideToggle("slow");
-    });
-});
