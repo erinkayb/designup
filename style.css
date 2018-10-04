@@ -58,9 +58,6 @@ video {
   padding: 5%;
 }
 
-
-
-
 .course-card {
   margin: 0 auto; 
 }
@@ -131,9 +128,8 @@ video {
 .ifont{
   font-size: 30px;
 }
-      .course-card .details .active {
-      background-color: #C3FF00;
-      
+  .course-card .details .active {
+    background-color: #C3FF00;
     }
   .course-card .details {
     display: none;
@@ -148,8 +144,18 @@ video {
     padding: 1em 1.25em; 
   }
 
+/*contact page*/
+.jumbotron-1 {
+  background: url('https://res.cloudinary.com/erinkayb/image/upload/v1538656503/paint2-b_rgb_fffdfd_e_blur_300_o_54.png') no-repeat center center;
+}
+.jumbotron-2 {
+  background: url('https://res.cloudinary.com/erinkayb/image/upload/v1538656311/brushes-e_fade_1000_o_78-e_blur_323.png') no-repeat center center;
+}
+/*.jumbotron-text{
+  color:white;
+}*/
 
-/*Gallery Page
+/*Gallery Page*/
 
 .title h1 {
   font-size: 2rem;
