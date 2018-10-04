@@ -1,9 +1,7 @@
 // Gallery text box effect
 $(document).ready(function() {
-  $('#gallery-title').hide();
   $('#fade-box').click(function(){
     $('p').fadeOut();
-    $('#gallery-title').show();
   })
   $('#gallery-title').click(function() {
     $('p').fadeIn();
