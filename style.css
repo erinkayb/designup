@@ -244,27 +244,34 @@ video {
   cursor: pointer;
 }
 
+.gallery-box {
+  margin-left: -20px;
+}
+
 .gallery-text p {
+  font-size: 1.1rem;
+  display: inline;
   box-shadow: 5px 5px 28px grey;
-  width: 100%;
-  text-align: left;
-  padding: 30px;
+  width: 70%;
+  text-align: center;
+  padding: 20px;
   background-color: #fff;
-  border-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 .gallery-text a {
-  width: 90px;
+  font-size: 15px;
+  display: inline;
+  width: 80px;
   text-align: center;
   color: #fff;
   background-color: #2E2E2E;
-  float: right;
   margin-top: 10px;
   padding: 10px;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 1.9px;
+  border-radius: 50px;
   box-shadow: 5px 5px 28px grey;
+  cursor: pointer;
 }
 
 .gallery-text a:hover {
