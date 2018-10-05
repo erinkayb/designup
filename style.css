@@ -95,6 +95,21 @@ video {
   cursor: pointer;
 }
 
+.caption h3, a {
+  margin-left: 20px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #2E2E2E;
+}
+
+.caption h3:hover, a:hover {
+  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #2E2E2E;
+}
+
 /*Course cards */
 
 .container {
