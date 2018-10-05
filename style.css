@@ -146,10 +146,12 @@ video {
 
 /*contact page*/
 .jumbotron-1 {
-  background: url('https://res.cloudinary.com/erinkayb/image/upload/v1538656503/paint2-b_rgb_fffdfd_e_blur_300_o_54.png') no-repeat center center;
+  background: url('https://res.cloudinary.com/erinkayb/image/upload/v1538656503/paint2-b_rgb_fffdfd_e_blur_300_o_54.png');
+  background-size: cover;
 }
 .jumbotron-2 {
-  background: url('https://res.cloudinary.com/erinkayb/image/upload/v1538656311/brushes-e_fade_1000_o_78-e_blur_323.png') no-repeat center center;
+  background: url('https://res.cloudinary.com/erinkayb/image/upload/v1538656311/brushes-e_fade_1000_o_78-e_blur_323.png');
+  background-size: cover;
 }
 /*.jumbotron-text{
   color:white;
