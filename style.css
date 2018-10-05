@@ -102,12 +102,12 @@ video {
   margin-bottom: 50px;
 }
 
-.h1text {
+/*.h1text {
   color: #1B1B36;
   padding: 5px;
   text-align: center;
   margin-top: 10%;
-}
+}*/
 
 .h4text {
   text-transform: uppercase;
@@ -201,6 +201,17 @@ video {
     }
   .course-card p {
     padding: 1em 1.25em;
+  }
+
+  .jumbotron-cards1{
+  background-image: url('https://res.cloudinary.com/erinkayb/image/upload/v1538726337/photo-e_blur_47_o_67.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .jumbotron-cards2{
+  background-image: url('https://res.cloudinary.com/erinkayb/image/upload/v1538726968/buckets-e_blur_162_o_51-b_rgb_fffdfd.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 
 /*contact page*/
