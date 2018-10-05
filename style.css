@@ -12,7 +12,9 @@ body {
   color: #2E2E2E;
   font-family: 'Playfair Display', serif;
 }
-
+a:hover {
+  text-decoration: none;
+}
 /*Navbar*/
 .logo {
   max-width: 250px;
@@ -58,7 +60,6 @@ video {
   position: relative;
   display: block;
   text-align: center;
-  text-decoration: none;
   margin-right: 30%;
   margin-top: 40px;
 }
@@ -66,7 +67,6 @@ video {
 .main-page-btn a:hover {
   background-color: #2E2E2E;
   border-color: transparent;
-  text-decoration: none;
 }
 
 .link-featured-courses {
@@ -86,7 +86,6 @@ video {
   background-color: #b8bad6;
   border-color: transparent;
   color: #2E2E2E;
-  text-decoration: none;
 }
 
 /*Featured courses on index*/
@@ -99,12 +98,10 @@ video {
   margin-left: 20px;
   display: block;
   text-align: center;
-  text-decoration: none;
   color: #2E2E2E;
 }
 
-.caption h3:hover, a:hover {
-  text-decoration: none;
+.caption h3:hover {
   font-size: 30px;
   cursor: pointer;
   color: #2E2E2E;
@@ -273,7 +270,6 @@ video {
 .gallery-text a:hover {
   background-color: #b8bad6;
   color: #2E2E2E;
-  text-decoration: none;
   font-weight: bold;
 }
 
@@ -285,7 +281,7 @@ video {
 .gallery img {
   width: 400px;
   height: 250px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-right: 10px;
 }
 
@@ -319,7 +315,6 @@ video {
   background-color: #b8bad6;
   border-color: transparent;
   color: #2E2E2E;
-  text-decoration: none;
 }
 
 #about-us {
