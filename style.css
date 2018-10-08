@@ -6,11 +6,13 @@
   transition: 0.1s;
 }
 
-body {
-  margin: 0px;
+html, body {
+  margin: 0;
+  width: 100%;
   background-color: #fff;
   color: #2E2E2E;
   font-family: 'Playfair Display', serif;
+  overflow-x: hidden;
 }
 a:hover {
   text-decoration: none;
@@ -22,8 +24,8 @@ a:hover {
 
 @media (min-width: 992px) {
   .navbar {
-      height: 70px;
-      font-size: 30px;
+    height: 70px;
+    font-size: 30px;
   }
 }
 
@@ -34,7 +36,7 @@ a:hover {
 video {
   height: auto;
   vertical-align: middle;
-  width: 100%;
+  max-width: 100%;
 }
 .video-banner p {
   font-size: 1.5rem;
@@ -245,30 +247,30 @@ video {
 }
 
 .gallery-box {
-  margin-left: -20px;
+  margin-top: 5%;
+  min-width: 30%;
 }
 
 .gallery-text p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  min-width: 30%;
   display: inline;
   box-shadow: 5px 5px 28px grey;
-  width: 70%;
   text-align: center;
-  padding: 20px;
+  padding: 1%;
   background-color: #fff;
   border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
 }
 
 .gallery-text a {
+  /*max-width: 70%;*/
   font-size: 15px;
-  display: inline;
-  width: 80px;
+  display: inline-block;
   text-align: center;
   color: #fff;
   background-color: #2E2E2E;
-  margin-top: 10px;
-  padding: 10px;
+  padding: 0.5%;
   border-radius: 50px;
   box-shadow: 5px 5px 28px grey;
   cursor: pointer;
