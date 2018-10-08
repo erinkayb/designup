@@ -273,7 +273,6 @@ video {
 }
 
 .gallery-text a {
-  /*max-width: 70%;*/
   font-size: 15px;
   display: inline-block;
   text-align: center;
@@ -289,10 +288,6 @@ video {
   background-color: #b8bad6;
   color: #2E2E2E;
   font-weight: bold;
-}
-
-.gallery {
-  /*max-width: 100%;*/
 }
 
 .gallery img {
