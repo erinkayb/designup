@@ -1,0 +1,22 @@
+{
+  "name": "designup-master-2",
+  "version": "1.0.0",
+  "description": "server assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/erinkayb/designup.git"
+  },
+  "author": "Erin de Blaeij",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erinkayb/designup/issues"
+  },
+  "homepage": "https://github.com/erinkayb/designup#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
